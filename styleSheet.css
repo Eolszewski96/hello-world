@@ -1,0 +1,110 @@
+
+    body{
+        background-color: #ededed;
+        
+    }
+    .header {
+        position: absolute;
+        width: 105vw;
+        height: 4vw;
+        text-align: left;
+        background: #142d4c;
+        color: #ededed;
+        margin: -1em;
+        filter: drop-shadow(.1vw .01vw .1vw rgb(0,0,0));
+        border-bottom-style: solid;
+        border-color: #0000001f;
+    }
+    .mainTitle{
+        display: inline-block;
+        margin-top: 1vw;
+        margin-left: 4vw;
+        font-size: 2vw;
+        color: white;
+        font-family: 'Segoe UI';
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }  
+    .nameSeperator{
+        display: inline-block;
+        padding-right: 40vw;
+        
+    }
+    .mainButtons{
+        background-color: Transparent;
+        border: none;
+        color: #f4f4f4;
+        font-size: 1.5vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+        outline: none; 
+    }
+    .mainButtons:hover{
+        color:#f4f4f493;
+    }
+   
+    .verticalSeperator{
+        display: inline-block;
+        padding-right: 1.8vw;
+        margin-left: 1.8vw;
+        border-left: .1vw solid gray;
+        height: 1vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+        
+    }
+    .leftSection, .rightSection{
+        margin-top: 6vw;
+        display: inline-block;
+        background-color: #ededed;
+        width: 30vw;
+        height: 35vw;
+        border: #e6e5e5;
+        border-style: solid;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    } 
+    .leftSection{
+        position: absolute;
+        margin-left: 15vw;
+    }
+    
+    .middleSection{
+        position: absolute;
+        margin-left: 49.5vw;
+        margin-top:4.8vw;
+        background-color: gray; 
+    }
+    .rightSection{
+        position: absolute;
+        margin-left: 53vw;
+    }
+    .homeParagraph{
+        display: inline;  
+        color: #4e4e4e;
+        font-size: 1.3vw;
+    }
+    .firstParagraph{
+        margin-top: 3vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .profilePicture{
+        margin-top: 2vw;
+        margin-left: 6vw;
+        width: 18vw;
+        height: 31vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }
+    .pageContent{
+        display: inline;
+    }
+    .calculatorApp{
+        background-color: rgba(255, 255, 255, 0);
+        margin-left: vw;
+        margin-top: .2vw;
+        width: 29vw;
+        height: 34vw;
+    }
+    .calcIFrame{
+        border-style: solid;
+        border: black;
+        width: 600px;
+        height: 700px;
+    }
