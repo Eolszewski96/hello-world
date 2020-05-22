@@ -19,6 +19,7 @@
     filter: drop-shadow(.1vw .1vw 1vw rgb(0,0,0))
 }
 .calculator-buttons{
+    position: absolute;
     margin-left: 3vw;
     padding-top: 1vw;
     width: 90vw;
@@ -32,6 +33,7 @@
     filter: drop-shadow(.1vw .1vw 1vw rgb(0,0,0))
 }
 .calculator-buttons> button{
+    
     background-color: darkseagreen;
     border: none;
     font-size: 7vw;

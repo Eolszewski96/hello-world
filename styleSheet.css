@@ -1,21 +1,23 @@
 
     body{
-        background-position: center;
         background-image: url("backgroundImg.jpg");
+        max-height: 100vw;
+        max-width: 100vw;
     }
     .header {
         position: absolute;
         width: 100vw;
         height: 5vw;
         text-align: left;
-        background-color: rgba(0, 0, 0, 0.280);
+        background: rgba(0, 0, 0, 0.280);
         margin: -1em;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));  
     }
     .buttonLinks > button{
         background-color: Transparent;
         border: none;
         color: #f4f4f4;
-        font-size: 2vw;
+        font-size: 1.8vw;
         filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
         outline: none; 
     }
@@ -26,15 +28,15 @@
     .mainTitle{
         display: inline-block;
         margin-top: 1vw;
-        margin-left: 10vw;
-        font-size: 2.5vw;
-        color: white;
+        margin-left: 15vw;
+        font-size: 2.4vw;
+        color: rgb(255, 255, 255);
         font-family: 'Segoe UI';
         filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
     }  
     .nameSeperator{
         display: inline-block;
-        padding-right: 30vw;
+        padding-right: 25vw;
         
     }
     .verticalSeperator{
@@ -43,8 +45,7 @@
         margin-left: 1.8vw;
         border-left: .1vw solid gray;
         height: 1vw;
-        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
-        
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));  
     }
     .indexBody{
         margin-left: 32vw;
@@ -52,10 +53,8 @@
         display: inline-block;
         background-color: transparent;
         width: 30vw;
-        height: 35vw;
-       
+        height: 35vw;  
     } 
-
     .homeParagraph{
         display: inline;  
         color: #4e4e4e;
@@ -69,30 +68,77 @@
     .profilePicture{
         margin-top: 5vw;
         margin-left: 6vw;
-        width: 21vw;
-        height: 21vw;
+        width: 19vw;
+        height: 19vw;
         filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
         border-radius: 100vw;
     }
-    .pageContent{
-        display: inline;
+    .edwardLine, .compSciLine{
+        color: white;
+        font-size: 1.5vw;
+        margin-left: 5.8vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }
+    .aboutMeBodyLeft{
+        display: inline-block;
+        margin-top: 6vw;
+        margin-left: 15vw;
+        width: 30vw;
+        height: 38vw;
+        background-color: rgba(0, 0, 0, 0.280); 
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }
+    .aboutMeBodyLeft > img{
+        position: absolute;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        width: 20vw;
+        height: 30vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+
+    }
+    .aboutMeBodyRight{
+        display: inline-block;
+        margin-top: 6vw;
+        margin-left: 10vw;
+        width: 30vw;
+        height: 38vw;
+        background-color: rgba(0, 0, 0, 0.280); 
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }
+
+    .aboutMeBodyRight > p1{
+        position: absolute;
+        color: white;
+        font-size: 1.2vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        filter: drop-shadow(.1vw .1vw .2vw rgb(0,0,0));
+    }
+   
+    .leftSection{
+        position: absolute;
+        margin-top: 8vw;
+        margin-left: 8vw;
+        width: 25vw;
+        height: 30vw;
+        background-color: crimson;
     }
     .calculatorApp{
-        background-color: rgba(255, 255, 255, 0);
-        margin-left: vw;
-        margin-top: .2vw;
+        position: absolute;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0);        
         width: 29vw;
         height: 34vw;
     }
     .calcIFrame{
+        position: absolute;
         border-style: solid;
         border: black;
-        width: 600px;
-        height: 700px;
+        width: 400px;
+        height: 600px;
     }
-    .edwardLine, .compSciLine{
-        color: white;
-        font-size: 1.7vw;
-        margin-left: 5.8vw;
-    }
+   
+
+      
     
