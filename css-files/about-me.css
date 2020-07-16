@@ -1,0 +1,117 @@
+/*---- main div for content ----*/
+.about-me-content{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    height: inherit;
+    padding-right: 5%;
+}
+
+/*---- left section of about me ----*/
+.picture-div{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: var(--content-background);
+    border-radius: var(--content-border);
+    box-shadow: var(--content-shadow);
+}
+.picture-div > img{
+    box-shadow: var(--content-shadow);
+}
+
+
+/*---- right section of about me ----*/
+.about-div{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    height: inherit;
+    width: 520px;
+    padding: 50px;
+    background-color: var(--content-background);
+    border-radius: var(--content-border);
+    box-shadow: var(--content-shadow);
+}
+.about-div > ul{
+    list-style: none;
+    text-align: left;
+    font-family: var(--font-everything);
+    font-size: 22px;
+    font-weight: 600;
+}
+.about-div > ul > li::before{
+    content: "\2022";
+    color: #4592af;
+    font-weight: bold;
+    display: inline-block; 
+    width: 30px;
+    margin-left: -1em;
+    font-size: 30px;
+}
+
+/*---- bottom divider ----*/
+.bottom-divider{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color: #272121;
+    box-shadow: var(--div-shadow);
+    width: 80%;
+    height: 1px;
+}
+
+/*---- contact info ----*/
+.contact-info{
+    min-width: 1200px;
+    max-width: 60%;
+    height: 80px;
+    margin-top: 60px;
+    border-radius: 1%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--dark-color);
+    box-shadow: var(--content-shadow);
+    border-radius: var(--content-border);
+}
+.contact-info > div{
+    display: inline-block;
+}
+.contact-info > div > a > img {
+    border-radius: 100%;
+    box-shadow: var(--div-shadow);
+}
+.contact-info > div > a > img:hover {
+    opacity: 90%;
+    width: 55px;
+}
+.contact-info > div > p {
+    color: var(--white-font);
+    padding: 8px 90px 0px 90px;
+    font-family: var(--font-everything);
+    font-weight: 700;
+}
+
+/*---- footer ----*/
+.footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--dark-color);
+    box-shadow: var(--div-shadow);
+    font-family: var(--font-everything);
+    font-weight: 700;
+    color: var(--white-font);
+    padding: 5px 0px 5px 0px;
+    font-size: 10px;
+
+    
+}
