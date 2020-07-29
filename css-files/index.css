@@ -29,6 +29,9 @@ body{
 
 
 /*---- header ----*/
+.mobile-h{
+    display: none;
+}
 .desktop-header{
     display: grid;
     grid-template-columns: minmax(200px,auto) minmax(700px, auto);
@@ -95,6 +98,7 @@ body{
         min-height: 100%;
     }
     .mobile-h{
+        display: inherit;
         position: fixed;
         background-color: var(--dark-color);
         width: 100%;
