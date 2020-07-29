@@ -115,7 +115,72 @@
     font-weight: 700;
     color: var(--white-font);
     padding: 5px 0px 5px 0px;
-    font-size: 10px;
+    font-size: 10px; 
+}
 
+@media only screen and (max-width: 600px){
+ 
+   
     
+
+
+
+
+
+
+    .about-me-content{
+        display: inline-block;
+        width: 80%;
+    }
+    .picture-div{
+        margin-top: 30%;
+        width: 100%;
+        height: inherit;
+        padding: 10px;
+    }
+    .picture-div > img {
+        width: 100%;
+
+    }
+
+
+
+
+    .about-div{
+        width: 100%;
+        padding: 10px;
+    }
+    .about-div > ul{
+        list-style: none;
+        text-align: left;
+        font-family: var(--font-everything);
+        font-size: 100%;
+        font-weight: 600;
+    }
+    .bottom-divider{
+        margin-top: 20%;
+    }
+
+
+
+    .contact-info{
+        min-width: 70%;
+        height: 10%;
+        margin-top: 20%;
+        padding: 0px;
+    }
+    .contact-info > div{
+        padding:3%;
+    }
+    .contact-info > div > a > img {
+        border-radius: 100%;
+        box-shadow: var(--div-shadow);
+    }
+    
+    .contact-info > div > p {
+        display: none;
+    }
+
+
+
 }
